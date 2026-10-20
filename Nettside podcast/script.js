@@ -11,11 +11,16 @@ const quizData = [
     },
     {
       question: 'Hva slags anbefalinger kom Regjeringen og Utdanningsdirektoratet med?',
-      options: ["Bruke mer KI til skolearbeid.", "Ikke bruke KI fra 1. - 7. trinn.", "Fullstendig ingen KI på skole.", ""],
+      options: ["KI skal brukes mer til skolearbeid.", "Ikke bruke KI fra 1. - 7. trinn.", "Fullstendig ingen KI på skole.", "Hver elev skal ha en maks de kan bruke KI hver skoleuke."],
       answer: "Ikke bruke KI fra 1. - 7. trinn."
     },
     {
-      question: 'Ifølge Medietilsynet Barn og medier 2026, hvor mange prosent bruker kunstelig intelligens som en "KI-venn"?',
+      question: 'Hva kan KI brukes til på en positiv måte ifølge Vemund?',
+      options: ["Å gjøre all skolearbeidet for eleven.", "Å erstatte lærere og klassekamerater.", "Å forstå vanskelige tekster og rette språkfeil.", "Å sørge for at all informasjon på nettet er riktig."],
+      answer: "Å forstå vanskelige tekster og rette språkfeil."
+    },
+    {
+      question: 'Ifølge Medietilsynet Barn og medier 2026, hvor mange prosent bruker kunstig intelligens som en "KI-venn"?',
       options: ["20%", "15%", "10%", "5%"],
       answer: "15%"
     },
@@ -24,6 +29,31 @@ const quizData = [
       options: ["66%", "59%", "47%", "42%"],
       answer: "47%"
     },
+    {
+      question: 'Hvor stor andel av 15–18-åringene bruker KI ifølge tallene i podkasten?',
+      options: ["Rundt 14 prosent.", "Rundt 39 prosent.", "Rundt 50 prosent.", "Over 70 prosent."],
+      answer: "Over 70 prosent."
+    },
+    {
+      question: 'Hva brukes KI mest til blant ungdom ifølge undersøkelsen?',
+      options: ["Underholdning.", "Å søke etter eller finne informasjon.", "Å lage bilder og videoer.", "Å snakke med en KI-venn."],
+      answer: "Å søke etter eller finne informasjon."
+    },
+    {
+      question: 'Hva mener Åsmund at skolen bør lære elevene om KI?',
+      options: ["At KI aldri kan brukes i skolen.", "At KI alltid har rett.", "At KI bør gjøre alle oppgavene for elevene.", "Å bruke KI smart og kritisk, uten å slutte å tenke selv."],
+      answer: "Å bruke KI smart og kritisk, uten å slutte å tenke selv."
+    },
+    {
+      question: 'Hvor stor andel av ungdommene bruker KI til å søke etter eller finne informasjon?',
+      options: ["21 prosent.", "33 prosent.", "71 prosent.", "78 prosent."],
+      answer: "78 prosent."
+    },
+    {
+      question: 'Hva er en mulig risiko ved å bruke KI som en venn?',
+      options: ["At man kan erstatte ekte menneskelig kontakt med KI.", "At man automatisk blir bedre til å forstå andre mennesker.", "At KI alltid blir sint på brukeren.", "At man mister tilgangen til internett."],
+      answer: "At man kan erstatte ekte menneskelig kontakt med KI."
+    }
   ];
   
   const questionElement = document.getElementById("question");
